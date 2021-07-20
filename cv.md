@@ -2,7 +2,7 @@
 
 __katenalifee@gmail.com__
 
-_I'm a webmaster since 2005 year. I`m developing sites for small business._  
+_I'm a webmaster since 2010 year. I`m developing sites for small business._  
 
 _Big practice in web-design, css and html coding, work with  bootstrap and Modx CMS._
       

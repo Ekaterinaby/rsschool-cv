@@ -395,7 +395,19 @@ footer object {
    
     }
     .snippetin pre {
-        width: 280px
+        width: 260px
+    }
+}
+@media all and (max-width: 340px) {
+    .snippetin {
+        width: 240px;
+        padding: 10px;
+      
+        display: inline-block;
+   
+    }
+    .snippetin pre {
+        width: 240px
     }
 }
 @media all and (max-width: 1105px) {
@@ -453,16 +465,4 @@ footer object {
         margin-top: 40px;
     }
 }
-
-@media all and (max-width: 340px) {
-    .snippetin {
-        width: 260px;
-        padding: 10px;
-      
-        display: inline-block;
-   
-    }
-    .snippetin pre {
-        width: 280px
-    }
-}
+ 

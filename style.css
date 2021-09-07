@@ -76,46 +76,56 @@ i {
 .nolist i {
     padding-right: 5px;
 }
+
 html {
     scroll-behavior: smooth;
-} nav {
-  margin: 25px;
-  background: #f9f9f9;
-  padding: 16px;
 }
+
+nav {
+    margin: 25px;
+    background: #f9f9f9;
+    padding: 16px;
+}
+
 nav .menuItems {
-  list-style: none;
-  display: flex;
-justify-content: center;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
 }
+
 nav .menuItems li {
-  margin: 20px;
+    margin: 20px;
 }
+
 nav .menuItems li a {
-  text-decoration: none;
-  color: green;
-  font-size: 24px;
-  font-weight: 400;
-  transition: all 0.5s ease-in-out;
-  position: relative;
-  text-transform: uppercase;
+    text-decoration: none;
+    color: green;
+    font-size: 24px;
+    font-weight: 400;
+    transition: all 0.5s ease-in-out;
+    position: relative;
+    text-transform: uppercase;
 }
+
 nav .menuItems li a::before {
-  content: attr(data-item);
-  transition: 0.5s;
-  color: #d29160;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  width: 0;
-  overflow: hidden;
+    content: attr(data-item);
+    transition: 0.5s;
+    color: #d29160;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 0;
+    overflow: hidden;
 }
+
 nav .menuItems li a:hover::before {
-  width: 100%;
-  transition: all 0.5s ease-in-out;
+    width: 100%;
+    transition: all 0.5s ease-in-out;
 }
+
 h2 {
     text-transform: uppercase;
     text-align: left;
@@ -123,9 +133,11 @@ h2 {
     border-top: solid 2px #ccc;
     margin-top: 40px;
 }
-#skills h2 {    
+
+#skills h2 {
     border-top: none;
 }
+
 h3 {
     text-transform: uppercase;
     text-align: left;
@@ -247,10 +259,10 @@ footer object {
 }
 
 @media all and (max-width: 885px) {
-    nav .menuItems li{
-        margin:10px;
+    nav .menuItems li {
+        margin: 10px;
     }
-nav .menuItems li a { 
-	font-size: 18px;	 
-}
+    nav .menuItems li a {
+        font-size: 18px;
+    }
 }

@@ -386,7 +386,7 @@ footer object {
 .snippetin pre {
     width: 300px
 }
-@media all and (max-width: 340px) {
+@media all and (max-width: 440px) {
     .snippetin {
         width: 260px;
         padding: 10px;

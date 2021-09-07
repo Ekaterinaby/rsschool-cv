@@ -383,7 +383,11 @@ footer object {
     text-align: center;
 }
 
-@media only screen and (max-width: 1105px) {
+.snippetin pre {
+    width: 300px
+}
+
+@media all and (max-width: 1105px) {
     .snippet {
         display: block;
         text-align: center;
@@ -399,7 +403,7 @@ footer object {
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media all and (max-width: 768px) {
     .nav-menu {
         position: fixed;
         left: -100%;
@@ -439,11 +443,7 @@ footer object {
     }
 }
 
-.snippetin pre {
-    width: 300px
-}
-
-@media only screen and (max-width: 340px) {
+@media all and (max-width: 340px) {
     .snippetin {
         width: 280px;
         padding: 10px;

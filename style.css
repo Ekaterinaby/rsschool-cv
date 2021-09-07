@@ -386,7 +386,18 @@ footer object {
 .snippetin pre {
     width: 300px
 }
-
+@media all and (max-width: 340px) {
+    .snippetin {
+        width: 260px;
+        padding: 10px;
+      
+        display: inline-block;
+   
+    }
+    .snippetin pre {
+        width: 280px
+    }
+}
 @media all and (max-width: 1105px) {
     .snippet {
         display: block;
@@ -445,13 +456,11 @@ footer object {
 
 @media all and (max-width: 340px) {
     .snippetin {
-        width: 280px;
+        width: 260px;
         padding: 10px;
-        border-width: 1px;
-        border-style: solid;
-        border-color: darkgreen;
+      
         display: inline-block;
-        text-align: left;
+   
     }
     .snippetin pre {
         width: 280px

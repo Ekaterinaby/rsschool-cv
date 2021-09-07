@@ -1,5 +1,5 @@
 body {
-    margin: 40px 0;
+    margin: 40px 0 0 0;
     padding: 0;
     overflow-x: hidden;
     font-family: 'Comfortaa', cursive;
@@ -282,5 +282,10 @@ footer object {
     nav .menuItems {
         display: block;
         text-align: center;
+    }
+    footer object {
+        max-width: 40%;
+        display: block;
+        margin: 10px auto;
     }
 }

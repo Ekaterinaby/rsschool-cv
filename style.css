@@ -386,30 +386,37 @@ footer object {
 .snippetin pre {
     width: 300px
 }
+
 @media all and (max-width: 440px) {
     .snippetin {
         width: 260px;
-        padding: 10px;
-      
+        padding: 10px 0;
         display: inline-block;
-   
     }
     .snippetin pre {
         width: 260px
     }
 }
+
 @media all and (max-width: 340px) {
     .snippetin {
         width: 240px;
-        padding: 10px;
-      
+        padding: 10px 0;
         display: inline-block;
-   
     }
     .snippetin pre {
         width: 240px
     }
+    h2 {
+        text-transform: uppercase;
+        text-align: left;
+        padding: 40px 0 20px 0;
+        border-top: solid 2px #ccc;
+        margin-top: 40px;
+        font-size: 22px;
+    }
 }
+
 @media all and (max-width: 1105px) {
     .snippet {
         display: block;
@@ -465,4 +472,3 @@ footer object {
         margin-top: 40px;
     }
 }
- 

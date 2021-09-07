@@ -17,6 +17,7 @@ a:hover {
 
 #bg {
     position: relative;
+    overflow-x: hidden;
 }
 
 #outer {

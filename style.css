@@ -245,3 +245,12 @@ footer object {
         text-align: center;
     }
 }
+
+@media all and (max-width: 885px) {
+    nav .menuItems li{
+        margin:10px;
+    }
+nav .menuItems li a { 
+	font-size: 18px;	 
+}
+}
